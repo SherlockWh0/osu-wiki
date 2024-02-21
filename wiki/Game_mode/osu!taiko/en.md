@@ -29,8 +29,7 @@ For players with prior *Taiko no Tatsujin* experience:
 - *Kiai Time* triggers the *"Go-Go Time"*
   - Gameplay gimmicks like the hit balloons or forked paths are not implemented (only the barebone basics)
 - Background display difference
-  - osu!taiko-specific beatmap usually has its own custom background, leaving upper section empty
-  - A video or static background image-only beatmap will take the lower portion only
+  - A video or static background image-only beatmap will take up the lower portion of the screen
   - If there is an element of storyboard, it will take over all the available screen space except the gameplay-important parts
 
 For newcomers of osu!taiko mode, the screen is split to two different sections; the upper section contains the gameplay elements while the lower section contains an image or video for the beatmap. At the upper section, there is the health bar, which unlike other game modes, starts off empty and must be filled up to at least 50% full or half-full to pass the difficulty. At the top-middle part below the health bar, a taiko drum is located at the left-side and a moving conveyor belt which carries the hit objects from right to left passing through a double white circles which serves as judgement circle near the taiko drum. Above the taiko drum is the animated taiko mascot which will react based on judgement received along with upper background colour changes. Lastly, there is the usual score, accuracy, and timer of the beatmap at the upper-right.
@@ -41,7 +40,7 @@ Please note that health drain is disabled in osu!taiko, so only the hit objects 
 
 ![Taiko hit circles](/wiki/shared/Taiko_hitcircles.jpg "osu!taiko hit circles")
 
-Each taiko notes (or notes, for brevity) will appear as either a red or a pale-blue circle. Those coloured circles were named Don (red notes) and Katu (blue notes), respectively.
+Taiko notes will appear as either a red or a blue circle. These circles are called Don (for red notes) and Katsu (for blue notes), respectively.
 
 If it is a small red note, press the button bound to the inner portion of the taiko drum or hit the large flat area (centre) of the *TaTaCon*. If it is a small blue note, press the button bound to the outer ring of the taiko drum or hit the sides of the *TaTaCon*. If the note is a **LARGE** circle, press or hit both of either inner or outer drum depending on the colour of the note for double point (a single correct hit will give single point instead).
 
@@ -59,7 +58,7 @@ Drumrolls can be ignored with no health penalty, as it does not recover the heal
 
 ![Taiko spinner](/wiki/shared/Taiko_spinner.jpg "osu!taiko spinner (denden)")
 
-Hit the inner and outer drum **in order** (like red, blue, red, blue, red, blue, ...) until the denden counter reached 0. Starting colour does not matter (allowed to start with blue if desired), and failing to complete it will incur miss health penalty but no combo break. Hitting the same colour will not decrement the denden counter, until a different colour is hit instead.
+Hit the inner and outer drum **in order** (like red, blue, red, blue, red, blue, ...) until the denden counter reaches 0. Starting colour does not matter (allowed to start with blue if desired), and failing to complete it will incur miss health penalty but no combo break. Hitting the same colour will not decrement the denden counter, until a different colour is hit instead.
 
 It does not increment the combo counter, and does not recover the health bar in any way. Each successful denden hit only gives a static 300 score, and denden completion will give a perfect (GREAT) large note score.
 
@@ -101,14 +100,14 @@ After completing a beatmap, the score is assigned a [grade](/wiki/Gameplay/Grade
 
 ## osu!taiko Mapping
 
-- The red notes refer to normal hit circle,
-  - large red notes needs a finish hitsound.
-- The blue notes needs to have a whistle/clap hitsound on that hit circle,
-  - large blue notes need both finish and whistle together.
-- The sliders represents the long yellow note (also known as drumroll)
-- The spinner represents a shaker.
+- Red notes refer to normal hit circles,
+  - large red notes need a finish hitsound.
+- Blue notes need to have a whistle/clap hitsound on that hit circle,
+  - large blue notes need both finish and whistle/clap together.
+- The sliders represent the long yellow note (also known as a drumroll)
+- The spinner represents a denden.
 
-Design placement of the notes does not matter.
+Placement of the notes does not matter.
 
 ### osu! conversion notes
 
@@ -137,6 +136,6 @@ Also note that 1/6 drumrolls are given if the slider tick rate of **3** was used
 
 ![osu!taiko logo in the Special Modes](img/Taiko_logo.jpg "Taiko logo in Special Mode")
 
-- The `Use Taiko skin for Taiko mode` in Options sidebar under Skin section will use the `taiko` folder's skin elements when playing in osu!taiko, regardless of current skin's taiko elements. The folder used to hold *[Taiko by LuiginHann](https://osu.ppy.sh/community/forums/topics/41319)* skin, which could be downloaded from the now-deprecated `osume.exe` (an osu! updater when osu! need to update) under `Skin` tab.
-- The first ranked beatmap which contains at least one osu!taiko difficulty is [Taiko no Tatsujin - Saitama2000 (Kharl)](https://osu.ppy.sh/beatmapsets/210)
-- The first ranked osu!taiko-only beatmap is [Mutsuhiko Izumi - Red Goose (lepidopodus)](https://osu.ppy.sh/beatmapsets/55920)
+- The `Use Taiko skin for Taiko mode` in Options sidebar under Skin section will use the `taiko` folder's skin elements when playing in osu!taiko, regardless of the current skin's taiko elements. The folder used to hold *[Taiko by LuiginHann](https://osu.ppy.sh/community/forums/topics/41319)* skin, which could be downloaded from the now-deprecated `osume.exe` (an osu! updater when osu! need to update) under `Skin` tab.
+- The first ranked beatmap to contain an osu!taiko difficulty was [Taiko no Tatsujin - Saitama2000 (Kharl)](https://osu.ppy.sh/beatmapsets/210)
+- The first ranked osu!taiko-only beatmap was [Mutsuhiko Izumi - Red Goose (lepidopodus)](https://osu.ppy.sh/beatmapsets/55920)
