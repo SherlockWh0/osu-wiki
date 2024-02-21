@@ -39,7 +39,7 @@ Please note that health drain is disabled in osu!taiko, so only the hit objects 
 
 ![Taiko hit circles](/wiki/shared/Taiko_hitcircles.jpg "osu!taiko hit circles")
 
-Taiko notes will appear as either a red or a blue circle. These circles are called Don (for red notes) and Katsu (for blue notes), respectively.
+Taiko notes will appear as either a red or a blue circle. These circles are called Don (for red notes) and Katsu or Kat (for blue notes), respectively.
 
 If it is a small red note, press the button bound to the inner portion of the taiko drum or hit the large flat area (centre) of the *TaTaCon*. If it is a small blue note, press the button bound to the outer ring of the taiko drum or hit the sides of the *TaTaCon*. If the note is a **LARGE** circle, press or hit both of either inner or outer drum depending on the colour of the note for double point (a single correct hit will give single point instead).
 
