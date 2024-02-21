@@ -28,7 +28,7 @@ For players with prior *Taiko no Tatsujin* experience:
 - The health bar must be at least 50% full to pass the song
 - *Kiai Time* triggers the *"Go-Go Time"*
   - Gameplay gimmicks like the hit balloons or forked paths are not implemented (only the barebone basics)
-- Background display difference
+- Background difference
   - A video or static background image-only beatmap will take up the lower portion of the screen
   - If the map has been storyboarded, the storyboard will take over the bottom of the screen
 For newcomers of osu!taiko mode, the screen is split into two different sections; the upper section contains the gameplay elements while the lower section contains an image, video, or storyboard for the beatmap. At the upper section, there is the health bar, which unlike other game modes, starts empty and must be filled up to at least 50% full or half-full to pass the difficulty. At the top-middle part below the health bar, a taiko drum is located at the left side and a moving conveyor belt which carries the hit objects from right to left passing through the judgement circle near the taiko drum. Above the taiko drum is an animated taiko mascot (otherwise known as a pippidon or don) which will react based on kiai sections, combo milestones, and notes missed during kiai time along with a scrolling background slider that changes colour when notes are missed. Lastly, there is the usual score, accuracy, and timer of the beatmap at the upper-right.
