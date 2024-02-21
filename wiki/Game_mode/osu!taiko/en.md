@@ -25,13 +25,12 @@ Alternatively, click on the `Mode` button and select `osu!taiko`.
 For players with prior *Taiko no Tatsujin* experience:
 
 - No chibi dancers at the bottom (must be storyboarded)
-- The health bar must be at least 50% full to pass the song (which is not really obvious using the default skin; please look in the [Skin Compendium](https://osu.ppy.sh/community/forums/topics/180864) for a decent osu!taiko skin)
+- The health bar must be at least 50% full to pass the song
 - *Kiai Time* triggers the *"Go-Go Time"*
   - Gameplay gimmicks like the hit balloons or forked paths are not implemented (only the barebone basics)
 - Background display difference
   - A video or static background image-only beatmap will take up the lower portion of the screen
-  - If the map has been storyboarded, the storyboard will take over all the available screen space except the gameplay-important parts
-
+  - If the map has been storyboarded, the storyboard will take over the bottom of the screen
 For newcomers of osu!taiko mode, the screen is split to two different sections; the upper section contains the gameplay elements while the lower section contains an image or video for the beatmap. At the upper section, there is the health bar, which unlike other game modes, starts off empty and must be filled up to at least 50% full or half-full to pass the difficulty. At the top-middle part below the health bar, a taiko drum is located at the left-side and a moving conveyor belt which carries the hit objects from right to left passing through a double white circles which serves as judgement circle near the taiko drum. Above the taiko drum is the animated taiko mascot which will react based on judgement received along with upper background colour changes. Lastly, there is the usual score, accuracy, and timer of the beatmap at the upper-right.
 
 Please note that health drain is disabled in osu!taiko, so only the hit objects will affect the health bar. Combo will not break when playing on an empty field. Unlike osu!, the combo milestone celebration is every 50 consecutive hits. The base score will be boosted after obtaining a combo that is a multiple of 10, but stops at 100 (max combo limit for the boost). If the combo is broken, the boost resets back to the base score. During *Kiai Time*, every successful hit will give the player 20% more points over the current score amount. Score gained from a hit can be checked below the accuracy at the upper-right corner in red.
