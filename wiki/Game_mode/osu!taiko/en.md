@@ -49,7 +49,7 @@ The notes must be pressed or hit in the small white judgement circle next to the
 
 ![Taiko drumroll](/wiki/shared/Taiko_drumroll.jpg "osu!taiko drumroll")
 
-Hit the inner (or outer) drum continuously for points until the end of the drumroll. For **LARGE** note, hit both buttons on the inner (or outer) drum simultaneously and continuously until it is done. Do note that drumrolls hits were hardcapped and only counted when hitting on the tiny hit circles, rather than drumrolling as fast as possible as in *Taiko no Tatsujin*.
+Hit the inner (or outer) drum continuously for points until the end of the drumroll. For **LARGE** notes, hit both buttons on the inner (or outer) drum simultaneously and continuously until it is done. Do note that drumrolls hits were hardcapped and only counted when hitting on the tiny hit circles, rather than drumrolling as fast as possible as in *Taiko no Tatsujin*.
 
 Drumrolls can be ignored with no health penalty, as it does not recover the health bar at all. However, it will cost possible points gained from the drumroll. Each successful hit on the tiny hit circle gives a static 300 score.
 
